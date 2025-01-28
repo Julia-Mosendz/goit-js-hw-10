@@ -1,0 +1,25 @@
+.container:has(input) {
+    text-align: center;
+    padding: 80px 0;
+}
+.timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.field {
+    text-align: center;
+}
+
+.value {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.label {
+    text-transform: uppercase;
+    display: block;
+    font-size: 10px;
+}
